@@ -24,7 +24,7 @@ class Template extends HTMLElement {
     this.setAttribute('style', value)
   }
   attributeChangedCallback(name, oldVal, newVal) {
-		this[name] = newVal
+	  
   }
 }
 const register = () => customElements.define(tagName, Template);
